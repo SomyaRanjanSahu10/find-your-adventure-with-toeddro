@@ -1,0 +1,219 @@
+{
+  "version": "1.0",
+  "quizKeys": {
+    "q1": [
+      "flying",
+      "water",
+      "explore",
+      "challenge"
+    ],
+    "q2": [
+      "mountains",
+      "beach",
+      "forest",
+      "open"
+    ],
+    "q3": [
+      "easy",
+      "moderate",
+      "challenging",
+      "extreme"
+    ],
+    "q4": [
+      "solo",
+      "friend",
+      "group",
+      "family"
+    ],
+    "q5": [
+      "scenic",
+      "adrenaline",
+      "nature",
+      "challenge"
+    ]
+  },
+  "activityProfiles": {
+    "flying": {
+      "preferredActivities": [
+        "paragliding",
+        "skydiving"
+      ],
+      "environment": {
+        "mountains": 3,
+        "open": 3,
+        "beach": 1,
+        "forest": 0
+      }
+    },
+    "water": {
+      "preferredActivities": [
+        "scuba",
+        "rafting",
+        "kayaking",
+        "surfing",
+        "sailing"
+      ],
+      "environment": {
+        "beach": 3,
+        "mountains": 2,
+        "open": 2,
+        "forest": 1
+      }
+    },
+    "explore": {
+      "preferredActivities": [
+        "trekking",
+        "camping",
+        "safari",
+        "biking"
+      ],
+      "environment": {
+        "forest": 3,
+        "mountains": 3,
+        "open": 2,
+        "beach": 1
+      }
+    },
+    "challenge": {
+      "preferredActivities": [
+        "bungee",
+        "climbing",
+        "mountaineering",
+        "paragliding",
+        "skydiving",
+        "rafting"
+      ],
+      "environment": {
+        "mountains": 3,
+        "open": 3,
+        "forest": 2,
+        "beach": 1
+      }
+    }
+  },
+  "environmentActivities": {
+    "mountains": [
+      "paragliding",
+      "trekking",
+      "camping",
+      "climbing",
+      "mountaineering",
+      "biking",
+      "rafting",
+      "bungee"
+    ],
+    "beach": [
+      "scuba",
+      "surfing",
+      "sailing",
+      "kayaking",
+      "camping"
+    ],
+    "forest": [
+      "trekking",
+      "camping",
+      "safari",
+      "biking",
+      "climbing",
+      "kayaking"
+    ],
+    "open": [
+      "paragliding",
+      "skydiving",
+      "bungee",
+      "biking",
+      "safari",
+      "trekking",
+      "camping"
+    ]
+  },
+  "intensityBoosts": {
+    "easy": [
+      "trekking",
+      "camping",
+      "safari",
+      "wellness retreat"
+    ],
+    "moderate": [
+      "trekking",
+      "camping",
+      "biking",
+      "kayaking",
+      "scuba",
+      "rafting"
+    ],
+    "challenging": [
+      "trekking",
+      "rafting",
+      "paragliding",
+      "climbing",
+      "biking",
+      "kayaking"
+    ],
+    "extreme": [
+      "bungee",
+      "skydiving",
+      "paragliding",
+      "mountaineering",
+      "climbing",
+      "rafting"
+    ]
+  },
+  "experienceBoosts": {
+    "scenic": [
+      "paragliding",
+      "trekking",
+      "camping",
+      "safari",
+      "biking",
+      "scuba"
+    ],
+    "adrenaline": [
+      "bungee",
+      "skydiving",
+      "paragliding",
+      "rafting",
+      "climbing",
+      "scuba"
+    ],
+    "nature": [
+      "trekking",
+      "safari",
+      "camping",
+      "kayaking",
+      "biking"
+    ],
+    "challenge": [
+      "mountaineering",
+      "climbing",
+      "bungee",
+      "skydiving",
+      "paragliding",
+      "rafting"
+    ]
+  },
+  "descriptions": {
+    "paragliding": "Your choices point toward open skies, dramatic landscapes and a flying adventure.",
+    "skydiving": "Your choices point toward open skies and a high-adrenaline free-fall experience.",
+    "scuba": "Your choices point toward the water and an underwater adventure.",
+    "rafting": "Your choices point toward moving water, shared thrills and an active river experience.",
+    "kayaking": "Your choices point toward water, exploration and a hands-on paddling adventure.",
+    "surfing": "Your choices point toward the coast and an active wave-riding experience.",
+    "sailing": "Your choices point toward open water and a scenic sailing experience.",
+    "trekking": "Your choices point toward exploring the outdoors on foot.",
+    "camping": "Your choices point toward a slower outdoor escape with nature at the center.",
+    "safari": "Your choices point toward wildlife, nature and exploration.",
+    "biking": "Your choices point toward exploring landscapes on two wheels.",
+    "climbing": "Your choices point toward a technical physical challenge.",
+    "mountaineering": "Your choices point toward a serious mountain challenge.",
+    "bungee": "Your choices point toward a short, intense adrenaline rush.",
+    "wellness retreat": "Your choices point toward a nature-oriented retreat experience."
+  },
+  "regionLabels": {
+    "mountains": "Mountain destinations represented by the matching operators",
+    "beach": "Coastal destinations represented by the matching operators",
+    "forest": "Forest and nature destinations represented by the matching operators",
+    "open": "Open-landscape destinations represented by the matching operators"
+  },
+  "notes": "These are preference/boost profiles, not fictional operator records. The matcher only returns an activity if that normalized activity exists in the supplied operator dataset. Region text is derived from selected matching operator data; no region is invented."
+}
